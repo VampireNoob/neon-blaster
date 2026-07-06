@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEON BLASTER</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="jet-fighter.ico">
+</head>
+<body>
+<div id="gameWrapper">
+    <canvas id="c" width="480" height="700">Dein Browser unterstützt kein Canvas.</canvas>
+
+    <div id="ui">
+        <div>
+            <div class="ui-label">SCORE</div>
+            <div class="ui-val" id="scoreDisplay">0</div>
+        </div>
+        <div style="text-align:center">
+            <div class="ui-label">LEVEL</div>
+            <div class="ui-val" id="levelDisplay">1</div>
+        </div>
+        <div style="text-align:right">
+            <div class="ui-label">LIVES</div>
+            <div id="lives-display"></div>
+            <div id="statusDisplay" class="status-icons"></div>
+        </div>
+    </div>
+
+    <div id="overlay">
+        <h1>NEON<br>BLASTER</h1>
+        <p>🖱️ MAUS BEWEGEN / FINGER ZIEHEN — SCHIFF FOLGT<br>🖱️ KLICK / GEDRÜCKT HALTEN — SCHIESSEN<br>ÜBERLEBE SO LANGE DU KANNST<br>🛡️ SCHILD &nbsp; ⚡ STÄRKERER SCHUSS</p>
+        <div id="finalScore" style="display:none"></div>
+        <button id="startBtn">START</button>
+    </div>
+
+    <div id="controls-hint">MAUS/FINGER BEWEGEN — SCHIFF FOLGT &nbsp;|&nbsp; KLICK/HALTEN — SCHUSS</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
