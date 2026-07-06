@@ -6,7 +6,9 @@ Ein Retro-Arcade-Shooter im Neon-Cyberpunk-Look, gebaut mit reinem JavaScript un
 
 ## Preview
 
-![Neon Blaster Screenshot](image.png)
+<p align="center">
+  <img src="image.png" alt="Neon Blaster Screenshot" width="480">
+</p>
 
 ## Features
 
